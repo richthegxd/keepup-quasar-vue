@@ -78,18 +78,18 @@ export const useNotes = defineStore("notes", {
 
     addCategory(categoryName) {
       //* It's generating a unique ID for the new category.
-      const formatedName = `${translit(categoryName)}-${generateId()}`;
+      const formattedName = `${translit(categoryName)}-${generateId()}`;
 
-      this.menuCategories.custom.categories[formatedName] = {
+      this.menuCategories.custom.categories[formattedName] = {
         icon: "o_label",
         label: categoryName,
-        routerParams: formatedName,
+        routerParams: formattedName,
         isEditing: true,
       };
 
-      this.notes[formatedName] = [];
+      this.notes[formattedName] = [];
 
-      appState.setActiveTab(formatedName);
+      appState.setActiveTab(formattedName);
 
       localStorage.setItem("menuCategories", JSON.stringify(this.menuCategories));
       localStorage.setItem("notes", JSON.stringify(this.notes));
