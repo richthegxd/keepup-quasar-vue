@@ -20,6 +20,15 @@ KeepUp is a learning project that partly copies the basic idea from **[Google Ke
 - **Free movement** of notes in the container
 - Switching themes (light, dark)
 
+## Demonstration of functionality
+- **[Creating notes](https://www.awesomescreenshot.com/video/8962377?key=48a34ccaaac29a4ff8aec835b0773186).**
+- **[Creating category](https://www.awesomescreenshot.com/video/8962421?key=c1ad9488efa01a5d6f04aee19d90b605).** 
+- **[Search notes](https://www.awesomescreenshot.com/video/8962487?key=54d0cfa2652e90018cb6caf447851e61).** 
+- **[Deleting/moving notes to the trash](https://www.awesomescreenshot.com/video/8962511?key=4d135ce5b247df2e6389f5af077657f2).**
+- **[Changing the display of notes](https://www.awesomescreenshot.com/video/8962562?key=ce0ff428c6a6762c6958c2c025293983).**
+- **[Import/export data](https://www.awesomescreenshot.com/video/8962678?key=1a24c09bce1eb76d619fac16e3d38a2a).**
+- **[Various little things](https://www.awesomescreenshot.com/video/8962619?key=5f0e1817d16dc93f278533f3b10b1139).**
+
 # How to use
 
 ## Firebase Configuration
