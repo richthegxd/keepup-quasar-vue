@@ -1,0 +1,35 @@
+{
+  "name": "keep-up",
+  "version": "0.0.1",
+  "description": "Just an application for managing notes, reminders",
+  "productName": "KeepUp",
+  "author": "Artem Artemov <richthegxd@mail.ru>",
+  "private": true,
+  "scripts": {
+    "dev": "quasar dev",
+    "lint": "eslint --ext .js,.vue ./ --fix"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.21.1",
+    "firebase": "^9.6.10",
+    "pinia": "^2.0.11",
+    "quasar": "^2.6.0",
+    "vue": "^3.0.0",
+    "vue-grid-layout": "^3.0.0-beta1",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.0.0-alpha.0",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-vue": "^8.5.0"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
